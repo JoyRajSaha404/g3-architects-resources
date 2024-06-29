@@ -270,6 +270,7 @@ main {
     justify-content: space-around;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 200px;
 }
 
 .section {
@@ -280,12 +281,13 @@ main {
     align-items: center;
     padding: 10px;
     width: 160px;
-    height:160px;
+    height: 160px;
     border: 1px solid #FF900E;
     border-radius: 10px;
     text-align: center;
 }
-.section:hover{
+
+.section:hover {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -293,22 +295,66 @@ main {
     align-items: center;
     padding: 10px;
     width: 160px;
-    height:160px;
-    border: 5px solid #FF900E;
+    height: 160px;
+    border: 3px solid #ffac4d;
     border-radius: 10px;
     text-align: center;
     background-color: #ffc37f;
 }
 
-.number{
+.number {
     font-weight: 700;
     font-size: 2.3em;
     color: rgb(60, 60, 60);
 }
-.desc{
+
+.desc {
     color: rgb(141, 141, 141);
     font-weight: 600;
 }
+
+/* ----------------------------- */
+
+.footer-part-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spoonsors-container img {
+    margin-left: 80px;
+    margin-bottom: 130px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    width: 450px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-part-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.footer-container {
+    padding: 39px 410px;
+    border-radius: 10px;
+    background-color: #ffecd7;
+}
+
+.footer-description-two {
+    color: rgb(91, 91, 91);
+}
+
 
 
 
@@ -557,8 +603,46 @@ main {
         align-items: center;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 50px;
     }
 
-    
+    /* -------------------------- */
 
+
+    .spoonsors-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-title {
+        font-weight: 700;
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .footer-description {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+
+    /* ---------------------- */
+
+    .footer-part-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .footer-container {
+        padding: 20px 50px;
+        border-radius: 0px;
+        background-color: #ffb560;
+    }
+    .footer-description-two {
+        text-align: center;
+        color: rgb(52, 52, 52);
+    }
+    
 }
